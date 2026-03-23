@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button id="myButton" onclick="hideButton()">Klick mich!</button>
+
+<script>
+function hideButton() {
+    document.getElementById("myButton").style.opacity = 0.4;
+}
+</script>
+
+</body>
+</html>
